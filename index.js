@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     if (err) {
       res.status(500).send('💥 BOOM 💥: ' + err);
     } else {
-      res.send('Hola Mudno, Me conecté a la DB! 😎');
+      res.send('Hola Alonso, Me conecté a la DB! 😎');
       db.close();
     }
   });
