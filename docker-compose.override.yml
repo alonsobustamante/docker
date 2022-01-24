@@ -4,5 +4,5 @@ services:
   app:
     build: .
     environment:
-      - UNA_VARIABLE: "Hola Platzi"
+      UNA_VARIABLE: "Hola Platzi"
     
